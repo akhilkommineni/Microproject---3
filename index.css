@@ -29,7 +29,9 @@
     row-gap: 2px;
     column-gap: 5px;
 }
-
+.calculator-title{
+    color: whitesmoke;
+}
 .row-container{
     display: flex;
     justify-content: center;
