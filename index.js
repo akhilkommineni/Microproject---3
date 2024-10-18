@@ -18,7 +18,6 @@ for (let each in numarray){
             resultContainer.innerHTML=inputString
         })
         numberContainer.appendChild(numBtn)
-
     }
     else{
         let opsBtn = document.createElement('h1')
@@ -26,7 +25,7 @@ for (let each in numarray){
         opsBtn.className='del-reset-btns'
         opsBtn.addEventListener("click",()=>{
             if(inputString.length===1){
-                inputString=""
+                inputString="0"
                 resultContainer.innerText = inputString
             }else{
                 inputString=inputString.slice(0,-1)
